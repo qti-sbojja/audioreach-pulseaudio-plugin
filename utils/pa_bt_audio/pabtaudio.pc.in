@@ -1,0 +1,9 @@
+prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: pabtaudio
+Description: Pulseaudio BT audio client wrapper Library
+Version: @VERSION@
+Libs: -L${libdir} -lpa_bt_audio_client_wrapper
+Cflags:-I${includedir}/pabt_headers
